@@ -15,6 +15,7 @@ tokens/
 ├── typography.json            # Font family, weights, and type scale
 ├── layout.json                # Spacing, corner radius, stroke width, shadows
 ├── components.json            # Full component registry with variants and Figma node IDs
+├── iconography.json           # 162 CapTech brand icons with node IDs and color modes
 └── css/
     └── variables-light.css   # Ready-to-use CSS custom properties (light mode)
 ```
@@ -155,8 +156,28 @@ Then use variables in your styles:
 | **Menu** | — |
 | **Material Acrylic** | — |
 
+## Iconography (162 icons)
+
+All icons are 48×48px flattened vectors available in four color modes:
+
+| Mode | Primary | Secondary |
+|---|---|---|
+| **Duotone** | CapTech Blue `#005eb8` | Yellow `#fdda24` |
+| **Monotone** | CapTech Blue `#005eb8` | CapTech Blue 30% |
+| **Greyscale** | Dark Grey `#333f48` | Dark Grey 30% |
+| **Inverse** | White `#ffffff` | White 50% |
+
+| Category | Count | Examples |
+|---|---|---|
+| **Practice Areas** | 4 | CX, DA, MC, SI |
+| **Core Competencies** | 5 | Communicator, Strategic Thinker, Results Driver |
+| **Core Values** | 6 | Belonging, Enthusiasm, Intellectual Curiosity |
+| **ERGs** | 7 | BlackTech, CAKE, PrideTech, Juntos |
+| **General** | 140 | AI Sparkle, Innovation Lightning, Rocket Launch, Chat Bot, Security Lock, People Teams... |
+
 ## Figma Source
 
 - **File key:** `ADyu4GaQPThxZXCkuABH98`
 - **Variable collections:** Primitive Colors, Semantic Tokens (Light/Dark), Layout, Brand Ramp
 - **Component pages:** Actions, Inputs, Data Display, Navigation, Layout & Containers, Feedback & Messaging, Other
+- **Iconography page:** Node `1:461` — 162 icons across 5 categories
