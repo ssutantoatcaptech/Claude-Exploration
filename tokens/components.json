@@ -1,0 +1,467 @@
+{
+  "$description": "Proto-Lab Design System — Component Registry. All components from Figma file ADyu4GaQPThxZXCkuABH98.",
+  "components": {
+    "actions": {
+      "button": {
+        "$description": "Triggers an action or event. Available in Primary, Outline, Subtle, and Transparent appearances across Small, Medium, and Large sizes.",
+        "componentKey": "4ca2d79145b3a1ccfa387e0f31f649dcf4a49b50",
+        "figmaPageId": "68:33",
+        "variants": {
+          "appearance": ["Primary", "Outline", "Subtle", "Transparent"],
+          "size": ["Small", "Medium", "Large"]
+        },
+        "variantKeys": {
+          "primary-small": "157:33",
+          "primary-medium": "157:35",
+          "primary-large": "157:37",
+          "outline-small": "157:39",
+          "outline-medium": "157:41",
+          "outline-large": "157:43",
+          "subtle-small": "157:45",
+          "subtle-medium": "157:47",
+          "subtle-large": "157:49",
+          "transparent-small": "157:51",
+          "transparent-medium": "157:53",
+          "transparent-large": "157:55"
+        }
+      },
+      "split-button": {
+        "$description": "A button with a dropdown trigger, combining a primary action with additional options.",
+        "figmaPageId": "68:33",
+        "variants": {
+          "appearance": ["Primary", "Outline"]
+        },
+        "variantKeys": {
+          "primary": "158:33",
+          "outline": "158:39"
+        }
+      },
+      "compound-button": {
+        "$description": "A button with primary and secondary text lines for additional context.",
+        "figmaPageId": "68:33",
+        "variants": {
+          "appearance": ["Primary", "Outline"]
+        },
+        "variantKeys": {
+          "primary": "158:46",
+          "outline": "158:49"
+        }
+      },
+      "link": {
+        "$description": "An inline or standalone text link for navigation or triggering actions.",
+        "figmaPageId": "68:33",
+        "variants": {
+          "variant": ["Default", "Subtle", "Inline"]
+        },
+        "variantKeys": {
+          "default": "158:53",
+          "subtle": "158:55",
+          "inline": "158:57"
+        }
+      }
+    },
+    "inputs": {
+      "input": {
+        "$description": "Single-line text field with label and optional underline stroke.",
+        "figmaPageId": "68:34",
+        "variants": {
+          "state": ["Default", "Filled", "Disabled"]
+        },
+        "variantKeys": {
+          "default": "160:33",
+          "filled": "160:37",
+          "disabled": "160:41"
+        }
+      },
+      "textarea": {
+        "$description": "Multi-line text input for longer content.",
+        "figmaPageId": "68:34",
+        "nodeId": "166:33"
+      },
+      "checkbox": {
+        "$description": "Binary choice control with checked, unchecked, and indeterminate states.",
+        "figmaPageId": "68:34",
+        "variants": {
+          "state": ["Checked", "Unchecked", "Indeterminate", "Disabled"]
+        },
+        "variantKeys": {
+          "checked": "198:33",
+          "unchecked": "198:37",
+          "indeterminate": "198:40",
+          "disabled": "198:44"
+        }
+      },
+      "radio": {
+        "$description": "Single selection from a list of mutually exclusive options.",
+        "figmaPageId": "68:34",
+        "variants": {
+          "state": ["Selected", "Unselected", "Disabled"]
+        },
+        "variantKeys": {
+          "selected": "166:37",
+          "unselected": "166:41",
+          "disabled": "166:44"
+        }
+      },
+      "switch": {
+        "$description": "Toggle control for binary on/off settings.",
+        "componentKey": "26720be2e921ab7bf5f7359fe314473dd59de763",
+        "figmaPageId": "68:34",
+        "variants": {
+          "state": ["On", "Off", "Disabled"]
+        },
+        "variantKeys": {
+          "on": "160:61",
+          "off": "160:65",
+          "disabled": "160:69"
+        }
+      },
+      "dropdown": {
+        "$description": "Select control for choosing from a list of options.",
+        "figmaPageId": "68:34",
+        "nodeId": "160:74"
+      },
+      "slider": {
+        "$description": "Range input for selecting a numeric value within a min/max range.",
+        "figmaPageId": "68:34",
+        "nodeId": "166:48"
+      },
+      "spin-button": {
+        "$description": "Numeric input with increment/decrement buttons.",
+        "figmaPageId": "68:34",
+        "nodeId": "166:53"
+      },
+      "search-box": {
+        "$description": "Text input optimized for search with icon and clear button.",
+        "figmaPageId": "68:34",
+        "nodeId": "166:60"
+      },
+      "rating": {
+        "$description": "Star-based rating control for displaying or setting a score.",
+        "figmaPageId": "68:34",
+        "variants": {
+          "color": ["Marigold", "Brand", "Neutral"]
+        },
+        "variantKeys": {
+          "marigold": "167:33",
+          "brand": "167:40",
+          "neutral": "167:47"
+        }
+      },
+      "swatch-picker": {
+        "$description": "Color swatch grid for selecting from predefined color options.",
+        "figmaPageId": "68:34",
+        "nodeId": "167:55"
+      },
+      "tag-picker": {
+        "$description": "Input that allows selecting multiple items as removable tags.",
+        "figmaPageId": "68:34",
+        "nodeId": "167:64"
+      }
+    },
+    "data-display": {
+      "avatar": {
+        "$description": "Circular avatar with initials. Sizes: 24, 32, 40, 48, 64.",
+        "componentKey": "3fcfcafe48e020c1f0dedb0f1bc9896300786721",
+        "figmaPageId": "68:35",
+        "variants": {
+          "size": ["24", "32", "40", "48", "64"]
+        },
+        "variantKeys": {
+          "24": "161:33",
+          "32": "161:35",
+          "40": "161:37",
+          "48": "161:39",
+          "64": "161:41"
+        }
+      },
+      "avatar-group": {
+        "$description": "Stacked group of avatars with overlap to show multiple users.",
+        "figmaPageId": "68:35"
+      },
+      "badge": {
+        "$description": "Small count or status indicator, often overlaid on another element.",
+        "figmaPageId": "68:35",
+        "variants": {
+          "variant": ["Count", "Text", "Dot"]
+        },
+        "variantKeys": {
+          "count": "161:44",
+          "text": "161:46",
+          "dot": "161:48"
+        }
+      },
+      "presence-badge": {
+        "$description": "Status dot indicating availability — Available, Busy, Away, Do Not Disturb, Offline.",
+        "figmaPageId": "68:35",
+        "variants": {
+          "status": ["Available", "Busy", "Away", "DoNotDisturb", "Offline"]
+        },
+        "variantKeys": {
+          "available": "161:50",
+          "busy": "161:51",
+          "away": "161:52",
+          "do-not-disturb": "161:53",
+          "offline": "161:54"
+        }
+      },
+      "persona": {
+        "$description": "Combined avatar + name + secondary text for user representation.",
+        "figmaPageId": "68:35"
+      },
+      "data-grid": {
+        "$description": "Tabular data display with sortable columns and row selection.",
+        "figmaPageId": "68:35"
+      },
+      "list": {
+        "$description": "Vertical list of items with optional icons and secondary text.",
+        "figmaPageId": "68:35"
+      },
+      "tree": {
+        "$description": "Hierarchical tree structure with expandable/collapsible nodes.",
+        "figmaPageId": "68:35"
+      },
+      "skeleton": {
+        "$description": "Placeholder loading state that mimics content layout.",
+        "figmaPageId": "68:35"
+      },
+      "status-indicator": {
+        "$description": "Colored indicator showing system or entity status.",
+        "figmaPageId": "68:35",
+        "variants": {
+          "status": ["Online", "Warning", "Error", "Info"]
+        },
+        "variantKeys": {
+          "online": "161:70",
+          "warning": "161:73",
+          "error": "161:76",
+          "info": "161:79"
+        }
+      },
+      "spinner": {
+        "$description": "Indeterminate loading indicator showing activity in progress.",
+        "figmaPageId": "68:35",
+        "variants": {
+          "size": ["Small", "Medium", "Large"]
+        },
+        "variantKeys": {
+          "small": "161:56",
+          "medium": "161:59",
+          "large": "161:62"
+        }
+      },
+      "progress-bar": {
+        "$description": "Horizontal bar indicating completion percentage.",
+        "figmaPageId": "68:35",
+        "nodeId": "161:66"
+      }
+    },
+    "navigation": {
+      "nav-item": {
+        "$description": "Vertical side navigation item with collapsible sub-items and active state.",
+        "figmaPageId": "68:36",
+        "variants": {
+          "state": ["Default", "Active", "Nested", "Disabled"]
+        },
+        "variantKeys": {
+          "default": "169:33",
+          "active": "169:35",
+          "nested": "169:38",
+          "disabled": "169:40"
+        }
+      },
+      "breadcrumb": {
+        "$description": "Horizontal trail showing the user's location within a hierarchy.",
+        "figmaPageId": "68:36",
+        "nodeId": "169:43"
+      },
+      "tab": {
+        "$description": "Horizontal or vertical tab for switching between views.",
+        "figmaPageId": "68:36",
+        "variants": {
+          "orientation": ["Horizontal", "Vertical"],
+          "state": ["Active", "Inactive"]
+        },
+        "variantKeys": {
+          "horizontal-active": "169:51",
+          "horizontal-inactive": "169:55",
+          "vertical-active": "169:58",
+          "vertical-inactive": "169:62"
+        }
+      },
+      "carousel": {
+        "$description": "Horizontal scrollable container with navigation arrows and pagination dots.",
+        "componentKey": "fe85dab49aedac22135bb54d7e8b2f93d26fc3b9",
+        "figmaPageId": "68:36",
+        "nodeId": "169:66"
+      }
+    },
+    "layout-containers": {
+      "card": {
+        "$description": "Surface container with optional header, body, and actions — supports elevated and outline styles.",
+        "componentKey": "74ae3d5f71c9842f526c5dd901603fa75ecf3062",
+        "figmaPageId": "68:37",
+        "variants": {
+          "appearance": ["Elevated", "Outline"]
+        },
+        "variantKeys": {
+          "elevated": "171:33",
+          "outline": "171:37"
+        }
+      },
+      "dialog": {
+        "$description": "Modal overlay for focused tasks or confirmations, with title, body, and action buttons.",
+        "figmaPageId": "68:37",
+        "nodeId": "171:42"
+      },
+      "drawer": {
+        "$description": "Side panel that slides in from the edge for secondary content or navigation.",
+        "figmaPageId": "68:37",
+        "nodeId": "171:50"
+      },
+      "popover": {
+        "$description": "Floating surface anchored to a trigger element, for contextual content.",
+        "componentKey": "2c1573a17f8080e625cee980c17d46c7ab38f099",
+        "figmaPageId": "68:37",
+        "nodeId": "171:56"
+      },
+      "divider": {
+        "$description": "Visual separator — horizontal/vertical, with Default, Subtle, Strong, and Brand appearances.",
+        "figmaPageId": "68:37",
+        "variants": {
+          "appearance": ["Default", "Subtle", "Strong", "Brand"]
+        },
+        "variantKeys": {
+          "default": "172:33",
+          "subtle": "172:34",
+          "strong": "172:35",
+          "brand": "172:36"
+        }
+      },
+      "accordion-item": {
+        "$description": "Collapsible content sections with expandable headers.",
+        "figmaPageId": "68:37",
+        "variants": {
+          "state": ["Expanded", "Collapsed"]
+        },
+        "variantKeys": {
+          "expanded": "172:38",
+          "collapsed": "172:44"
+        }
+      },
+      "field": {
+        "$description": "Form field wrapper with label, input, validation message, and hint text.",
+        "figmaPageId": "68:37",
+        "variants": {
+          "state": ["Default", "Error", "Success"]
+        },
+        "variantKeys": {
+          "default": "172:49",
+          "error": "172:53",
+          "success": "172:58"
+        }
+      }
+    },
+    "feedback-messaging": {
+      "message-bar": {
+        "$description": "Inline banner for informational, success, warning, and error messages.",
+        "componentKey": "896d12202f7988fee4618c8e0371f9183e455597",
+        "figmaPageId": "68:38",
+        "variants": {
+          "status": ["Info", "Success", "Warning", "Error"]
+        },
+        "variantKeys": {
+          "info": "173:33",
+          "success": "173:37",
+          "warning": "173:41",
+          "error": "173:45"
+        }
+      },
+      "toast": {
+        "$description": "Transient notification that appears briefly to confirm an action.",
+        "figmaPageId": "68:38",
+        "variants": {
+          "status": ["Success", "Error", "Info"]
+        },
+        "variantKeys": {
+          "success": "173:50",
+          "error": "173:54",
+          "info": "173:58"
+        }
+      },
+      "tooltip": {
+        "$description": "Small popup with helper text that appears on hover.",
+        "componentKey": "d14f9b691cd0b84f47380f67aa7b2cefc3c4c14c",
+        "figmaPageId": "68:38",
+        "variants": {
+          "position": ["Top", "Bottom", "Right"]
+        },
+        "variantKeys": {
+          "top": "173:63",
+          "bottom": "173:65",
+          "right": "173:67"
+        }
+      },
+      "teaching-popover": {
+        "$description": "Onboarding-style popover with title, body, illustration area, and step navigation.",
+        "componentKey": "b3ea46c6b078a144c1d499e18c26e91a6e109c4e",
+        "figmaPageId": "68:38",
+        "nodeId": "173:70"
+      },
+      "info-label": {
+        "$description": "Small informational label with an icon trigger for additional context.",
+        "figmaPageId": "68:38",
+        "nodeId": "173:81"
+      }
+    },
+    "other": {
+      "label": {
+        "$description": "Text label for form fields, with required indicator and disabled states.",
+        "figmaPageId": "68:39",
+        "variants": {
+          "state": ["Default", "Required", "Disabled"]
+        },
+        "variantKeys": {
+          "default": "174:33",
+          "required": "174:35",
+          "disabled": "174:38"
+        }
+      },
+      "tag": {
+        "$description": "Static label chip for categorization — available in multiple colors.",
+        "figmaPageId": "68:39",
+        "variants": {
+          "color": ["Brand", "Danger", "Success", "Warning", "Neutral"]
+        },
+        "variantKeys": {
+          "brand": "174:41",
+          "danger": "174:43",
+          "success": "174:45",
+          "warning": "174:47",
+          "neutral": "174:49"
+        }
+      },
+      "interaction-tag": {
+        "$description": "Dismissible tag chip with a close button — used in filters, selections, and multi-select.",
+        "figmaPageId": "68:39",
+        "nodeId": "174:52"
+      },
+      "toolbar": {
+        "$description": "Horizontal row of action buttons and controls, often grouped with dividers.",
+        "figmaPageId": "68:39",
+        "nodeId": "174:56"
+      },
+      "menu": {
+        "$description": "Dropdown menu with items, sections, keyboard shortcuts, and nested sub-menus.",
+        "figmaPageId": "68:39",
+        "nodeId": "174:70"
+      },
+      "material-acrylic": {
+        "$description": "Frosted glass/acrylic blur effect for surfaces and overlays.",
+        "componentKey": "9f0c06bcc0239b2a4a7ed8f11ad2b2d45f02c323",
+        "figmaPageId": "68:39",
+        "nodeId": "174:88"
+      }
+    }
+  }
+}

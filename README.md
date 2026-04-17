@@ -1,6 +1,6 @@
-# Proto-Lab Design System — Token Library
+# Proto-Lab Design System
 
-Design tokens extracted from the [Proto-Lab Design System](https://www.figma.com/design/ADyu4GaQPThxZXCkuABH98/Proto-Lab-Design-System) Figma file.
+Design tokens and component registry extracted from the [Proto-Lab Design System](https://www.figma.com/design/ADyu4GaQPThxZXCkuABH98/Proto-Lab-Design-System) Figma file.
 
 **Foundation:** CapTech Brand identity layered on Microsoft Fluent 2 Web, with light and dark mode support.
 
@@ -14,6 +14,7 @@ tokens/
 │   └── semantic-dark.json    # Dark mode semantic tokens
 ├── typography.json            # Font family, weights, and type scale
 ├── layout.json                # Spacing, corner radius, stroke width, shadows
+├── components.json            # Full component registry with variants and Figma node IDs
 └── css/
     └── variables-light.css   # Ready-to-use CSS custom properties (light mode)
 ```
@@ -74,8 +75,88 @@ Then use variables in your styles:
 | **Corner radius** | Fluent 2 — 0, 2, 4, 6, 8, 9999 |
 | **Elevation** | 6 levels (2, 4, 8, 16, 28, 64) using ambient + key shadows |
 
+## Components (46 total)
+
+### Actions (4)
+| Component | Variants |
+|---|---|
+| **Button** | Appearance: Primary, Outline, Subtle, Transparent × Size: Small, Medium, Large |
+| **Split Button** | Appearance: Primary, Outline |
+| **Compound Button** | Appearance: Primary, Outline |
+| **Link** | Default, Subtle, Inline |
+
+### Inputs (12)
+| Component | Variants |
+|---|---|
+| **Input** | State: Default, Filled, Disabled |
+| **Textarea** | — |
+| **Checkbox** | State: Checked, Unchecked, Indeterminate, Disabled |
+| **Radio** | State: Selected, Unselected, Disabled |
+| **Switch** | State: On, Off, Disabled |
+| **Dropdown** | — |
+| **Slider** | — |
+| **Spin Button** | — |
+| **SearchBox** | — |
+| **Rating** | Color: Marigold, Brand, Neutral |
+| **Swatch Picker** | — |
+| **Tag Picker** | — |
+
+### Data Display (12)
+| Component | Variants |
+|---|---|
+| **Avatar** | Size: 24, 32, 40, 48, 64 |
+| **Avatar Group** | — |
+| **Badge** | Variant: Count, Text, Dot |
+| **Presence Badge** | Status: Available, Busy, Away, DoNotDisturb, Offline |
+| **Persona** | — |
+| **DataGrid** | — |
+| **List** | — |
+| **Tree** | — |
+| **Skeleton** | — |
+| **Status Indicator** | Status: Online, Warning, Error, Info |
+| **Spinner** | Size: Small, Medium, Large |
+| **Progress Bar** | — |
+
+### Navigation (4)
+| Component | Variants |
+|---|---|
+| **Nav Item** | State: Default, Active, Nested, Disabled |
+| **Breadcrumb** | — |
+| **Tab** | Orientation: Horizontal, Vertical × State: Active, Inactive |
+| **Carousel** | — |
+
+### Layout & Containers (7)
+| Component | Variants |
+|---|---|
+| **Card** | Appearance: Elevated, Outline |
+| **Dialog** | — |
+| **Drawer** | — |
+| **Popover** | — |
+| **Divider** | Appearance: Default, Subtle, Strong, Brand |
+| **Accordion Item** | State: Expanded, Collapsed |
+| **Field** | State: Default, Error, Success |
+
+### Feedback & Messaging (5)
+| Component | Variants |
+|---|---|
+| **Message Bar** | Status: Info, Success, Warning, Error |
+| **Toast** | Status: Success, Error, Info |
+| **Tooltip** | Position: Top, Bottom, Right |
+| **Teaching Popover** | — |
+| **Info Label** | — |
+
+### Other (6)
+| Component | Variants |
+|---|---|
+| **Label** | State: Default, Required, Disabled |
+| **Tag** | Color: Brand, Danger, Success, Warning, Neutral |
+| **Interaction Tag** | — |
+| **Toolbar** | — |
+| **Menu** | — |
+| **Material Acrylic** | — |
+
 ## Figma Source
 
 - **File key:** `ADyu4GaQPThxZXCkuABH98`
 - **Variable collections:** Primitive Colors, Semantic Tokens (Light/Dark), Layout, Brand Ramp
-- **Components:** Switch, Teaching Popover, Icons, and 40+ inherited from Fluent 2 Web
+- **Component pages:** Actions, Inputs, Data Display, Navigation, Layout & Containers, Feedback & Messaging, Other
