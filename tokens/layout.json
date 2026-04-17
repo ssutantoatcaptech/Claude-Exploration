@@ -1,0 +1,79 @@
+{
+  "spacing": {
+    "none": { "$value": "0px", "$type": "dimension" },
+    "xxs": { "$value": "2px", "$type": "dimension" },
+    "xs": { "$value": "4px", "$type": "dimension" },
+    "s-nudge": { "$value": "6px", "$type": "dimension" },
+    "s": { "$value": "8px", "$type": "dimension" },
+    "m-nudge": { "$value": "10px", "$type": "dimension" },
+    "m": { "$value": "12px", "$type": "dimension" },
+    "l": { "$value": "16px", "$type": "dimension" },
+    "xl": { "$value": "20px", "$type": "dimension" },
+    "xxl": { "$value": "24px", "$type": "dimension" },
+    "xxxl": { "$value": "32px", "$type": "dimension" }
+  },
+  "corner-radius": {
+    "none": { "$value": "0px", "$type": "dimension" },
+    "small": { "$value": "2px", "$type": "dimension" },
+    "medium": { "$value": "4px", "$type": "dimension" },
+    "large": { "$value": "6px", "$type": "dimension" },
+    "x-large": { "$value": "8px", "$type": "dimension" },
+    "circular": { "$value": "9999px", "$type": "dimension" }
+  },
+  "stroke-width": {
+    "thin": { "$value": "1px", "$type": "dimension" },
+    "thick": { "$value": "2px", "$type": "dimension" },
+    "thicker": { "$value": "3px", "$type": "dimension" },
+    "thickest": { "$value": "4px", "$type": "dimension" }
+  },
+  "shadow": {
+    "2": {
+      "$type": "shadow",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "1px", "blur": "2px", "spread": "0px", "color": "{color.semantic.shadow.ambient}" },
+        { "offsetX": "0px", "offsetY": "1px", "blur": "2px", "spread": "0px", "color": "{color.semantic.shadow.key}" }
+      ],
+      "$description": "Elevation 2 — cards, buttons"
+    },
+    "4": {
+      "$type": "shadow",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "0px", "blur": "2px", "spread": "0px", "color": "{color.semantic.shadow.ambient}" },
+        { "offsetX": "0px", "offsetY": "2px", "blur": "4px", "spread": "0px", "color": "{color.semantic.shadow.key}" }
+      ],
+      "$description": "Elevation 4 — dropdowns, popovers"
+    },
+    "8": {
+      "$type": "shadow",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "0px", "blur": "2px", "spread": "0px", "color": "{color.semantic.shadow.ambient}" },
+        { "offsetX": "0px", "offsetY": "4px", "blur": "8px", "spread": "0px", "color": "{color.semantic.shadow.key}" }
+      ],
+      "$description": "Elevation 8 — flyouts, teaching popovers"
+    },
+    "16": {
+      "$type": "shadow",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "0px", "blur": "2px", "spread": "0px", "color": "{color.semantic.shadow.ambient}" },
+        { "offsetX": "0px", "offsetY": "8px", "blur": "16px", "spread": "0px", "color": "{color.semantic.shadow.key}" }
+      ],
+      "$description": "Elevation 16 — dialogs, drawers"
+    },
+    "28": {
+      "$type": "shadow",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "0px", "blur": "8px", "spread": "0px", "color": "{color.semantic.shadow.ambient}" },
+        { "offsetX": "0px", "offsetY": "14px", "blur": "28px", "spread": "0px", "color": "{color.semantic.shadow.key}" }
+      ],
+      "$description": "Elevation 28 — modals, command bars"
+    },
+    "64": {
+      "$type": "shadow",
+      "$value": [
+        { "offsetX": "0px", "offsetY": "0px", "blur": "8px", "spread": "0px", "color": "{color.semantic.shadow.ambient}" },
+        { "offsetX": "0px", "offsetY": "32px", "blur": "64px", "spread": "0px", "color": "{color.semantic.shadow.key}" }
+      ],
+      "$description": "Elevation 64 — top-level surfaces"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "color": {
+    "primitive": {
+      "brand": {
+        "captech-blue": { "$value": "#005eb8", "$type": "color" },
+        "dark-grey": { "$value": "#333f48", "$type": "color" },
+        "medium-grey": { "$value": "#888b8d", "$type": "color" },
+        "light-grey": { "$value": "#d9d9d6", "$type": "color" },
+        "white": { "$value": "#ffffff", "$type": "color" }
+      },
+      "accent": {
+        "yellow": { "$value": "#fdda24", "$type": "color" }
+      },
+      "tertiary": {
+        "dark-blue": { "$value": "#003865", "$type": "color" },
+        "light-teal": { "$value": "#68d2df", "$type": "color" },
+        "sky-blue": { "$value": "#00a5df", "$type": "color" }
+      },
+      "blue-scale": {
+        "100": { "$value": "#dbeeff", "$type": "color" },
+        "200": { "$value": "#a5cfff", "$type": "color" },
+        "300": { "$value": "#5598dd", "$type": "color" },
+        "400": { "$value": "#176ebf", "$type": "color" },
+        "500": { "$value": "#005eb8", "$type": "color" },
+        "700": { "$value": "#004994", "$type": "color" }
+      },
+      "brand-ramp": {
+        "10": { "$value": "#061724", "$type": "color" },
+        "20": { "$value": "#082338", "$type": "color" },
+        "30": { "$value": "#0a2e4a", "$type": "color" },
+        "40": { "$value": "#0c3b5e", "$type": "color" },
+        "50": { "$value": "#0e4775", "$type": "color" },
+        "60": { "$value": "#0f548c", "$type": "color" },
+        "70": { "$value": "#115ea3", "$type": "color" },
+        "80": { "$value": "#005eb8", "$type": "color" },
+        "90": { "$value": "#2886de", "$type": "color" },
+        "100": { "$value": "#479ef5", "$type": "color" },
+        "110": { "$value": "#62abf5", "$type": "color" },
+        "120": { "$value": "#77b7f7", "$type": "color" },
+        "130": { "$value": "#96c6fa", "$type": "color" },
+        "140": { "$value": "#b4d6fa", "$type": "color" },
+        "150": { "$value": "#cfe4fa", "$type": "color" },
+        "160": { "$value": "#ebf3fc", "$type": "color" }
+      },
+      "neutral": {
+        "black": { "$value": "#000000", "$type": "color" },
+        "white": { "$value": "#ffffff", "$type": "color" },
+        "grey-2": { "$value": "#f5f5f4", "$type": "color" },
+        "grey-4": { "$value": "#ebebea", "$type": "color" },
+        "grey-6": { "$value": "#e0e0df", "$type": "color" },
+        "grey-8": { "$value": "#d6d6d5", "$type": "color" },
+        "grey-12": { "$value": "#c1c1c0", "$type": "color" },
+        "grey-20": { "$value": "#1a2730", "$type": "color" }
+      },
+      "opacity": {
+        "dark-grey-5": { "$value": "rgba(51, 63, 72, 0.05)", "$type": "color" },
+        "captech-blue-30": { "$value": "rgba(0, 94, 184, 0.3)", "$type": "color" },
+        "dark-grey-30": { "$value": "rgba(51, 63, 72, 0.3)", "$type": "color" },
+        "white-50": { "$value": "rgba(255, 255, 255, 0.5)", "$type": "color" }
+      }
+    }
+  }
+}

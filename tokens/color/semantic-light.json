@@ -1,0 +1,58 @@
+{
+  "color": {
+    "semantic": {
+      "neutral": {
+        "background-1": { "$value": "{color.primitive.neutral.white}", "$type": "color", "$description": "Primary page background" },
+        "background-2": { "$value": "{color.primitive.neutral.grey-2}", "$type": "color", "$description": "Secondary/card background" },
+        "background-3": { "$value": "{color.primitive.neutral.grey-4}", "$type": "color", "$description": "Tertiary background" },
+        "background-subtle": { "$value": "{color.primitive.opacity.dark-grey-5}", "$type": "color", "$description": "Subtle background tint" },
+        "background-inverted": { "$value": "{color.primitive.brand.dark-grey}", "$type": "color", "$description": "Inverted background (dark)" },
+        "background-disabled": { "$value": "{color.primitive.neutral.grey-4}", "$type": "color", "$description": "Disabled element background" },
+        "background-overlay": { "$value": "rgba(0, 0, 0, 0.5)", "$type": "color", "$description": "Modal/drawer overlay" },
+        "foreground-1": { "$value": "{color.primitive.brand.dark-grey}", "$type": "color", "$description": "Primary text" },
+        "foreground-2": { "$value": "{color.primitive.brand.medium-grey}", "$type": "color", "$description": "Secondary text" },
+        "foreground-3": { "$value": "{color.primitive.neutral.grey-12}", "$type": "color", "$description": "Tertiary/placeholder text" },
+        "foreground-disabled": { "$value": "{color.primitive.neutral.grey-8}", "$type": "color", "$description": "Disabled text" },
+        "foreground-inverted": { "$value": "{color.primitive.neutral.white}", "$type": "color", "$description": "Text on dark backgrounds" },
+        "foreground-on-brand": { "$value": "{color.primitive.neutral.white}", "$type": "color", "$description": "Text on brand-colored backgrounds" },
+        "foreground-link": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Link text" },
+        "stroke-1": { "$value": "{color.primitive.neutral.grey-6}", "$type": "color", "$description": "Default border" },
+        "stroke-2": { "$value": "{color.primitive.neutral.grey-4}", "$type": "color", "$description": "Subtle border" },
+        "stroke-accessible": { "$value": "{color.primitive.brand.dark-grey}", "$type": "color", "$description": "High-contrast border" },
+        "stroke-focus": { "$value": "{color.primitive.brand.dark-grey}", "$type": "color", "$description": "Focus ring" },
+        "stroke-disabled": { "$value": "{color.primitive.neutral.grey-6}", "$type": "color", "$description": "Disabled border" }
+      },
+      "brand": {
+        "background-1": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Primary brand background" },
+        "background-2": { "$value": "{color.primitive.brand-ramp.70}", "$type": "color", "$description": "Secondary brand background" },
+        "background-inverted": { "$value": "{color.primitive.blue-scale.100}", "$type": "color", "$description": "Inverted brand background" },
+        "background-compound": { "$value": "{color.primitive.blue-scale.100}", "$type": "color", "$description": "Compound brand background (checkbox, switch)" },
+        "foreground-1": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Primary brand text/icon" },
+        "foreground-2": { "$value": "{color.primitive.brand-ramp.70}", "$type": "color", "$description": "Secondary brand text/icon" },
+        "foreground-link": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Brand link" },
+        "foreground-inverted": { "$value": "{color.primitive.neutral.white}", "$type": "color", "$description": "Brand text on dark" },
+        "foreground-compound": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Compound brand text" },
+        "stroke-1": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Primary brand border" },
+        "stroke-2": { "$value": "{color.primitive.brand-ramp.90}", "$type": "color", "$description": "Secondary brand border" },
+        "stroke-compound": { "$value": "{color.primitive.brand.captech-blue}", "$type": "color", "$description": "Compound brand border" }
+      },
+      "status": {
+        "danger-background": { "$value": "#fdf3f4", "$type": "color", "$description": "Error/danger background" },
+        "danger-foreground": { "$value": "#c4314b", "$type": "color", "$description": "Error/danger text (Cranberry)" },
+        "danger-stroke": { "$value": "#c4314b", "$type": "color", "$description": "Error/danger border" },
+        "success-background": { "$value": "#f1faf1", "$type": "color", "$description": "Success background" },
+        "success-foreground": { "$value": "#0e7a0b", "$type": "color", "$description": "Success text (Green)" },
+        "success-stroke": { "$value": "#0e7a0b", "$type": "color", "$description": "Success border" },
+        "warning-background": { "$value": "#fff9f5", "$type": "color", "$description": "Warning background" },
+        "warning-foreground": { "$value": "#f7630c", "$type": "color", "$description": "Warning text (Orange)" },
+        "warning-stroke": { "$value": "#f7630c", "$type": "color", "$description": "Warning border" },
+        "severe-foreground": { "$value": "#da3b01", "$type": "color", "$description": "Severe/critical text (Dark Orange)" },
+        "accent": { "$value": "{color.primitive.accent.yellow}", "$type": "color", "$description": "Brand accent (Yellow)" }
+      },
+      "shadow": {
+        "ambient": { "$value": "rgba(0, 0, 0, 0.12)", "$type": "color", "$description": "Ambient shadow color" },
+        "key": { "$value": "rgba(0, 0, 0, 0.14)", "$type": "color", "$description": "Key shadow color" }
+      }
+    }
+  }
+}
