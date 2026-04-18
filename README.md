@@ -18,6 +18,18 @@ tokens/
 ├── iconography.json           # 162 CapTech brand icons with node IDs and color modes
 └── css/
     └── variables-light.css   # Ready-to-use CSS custom properties (light mode)
+icons/
+├── practice-areas/           # CX, DA, MC, SI
+├── core-competencies/        # Communicator, Strategic Thinker…
+├── core-values/              # Belonging, Enthusiasm…
+├── ergs/                     # BlackTech, CAKE, PrideTech…
+└── general/                  # 140 general-purpose icons
+    ├── duotone/              # Blue (#005eb8) + Yellow (#fdda24)
+    ├── monotone/             # Blue + Blue 30%
+    ├── greyscale/            # Dark Grey + Grey 30%
+    └── inverse/              # White + White 50%
+scripts/
+└── export-icons.js           # Fetch all SVGs from Figma API → icons/
 ```
 
 ## Token Format
@@ -174,6 +186,18 @@ All icons are 48×48px flattened vectors available in four color modes:
 | **Core Values** | 6 | Belonging, Enthusiasm, Intellectual Curiosity |
 | **ERGs** | 7 | BlackTech, CAKE, PrideTech, Juntos |
 | **General** | 140 | AI Sparkle, Innovation Lightning, Rocket Launch, Chat Bot, Security Lock, People Teams... |
+
+SVG files live in `icons/<category>/<mode>/<slug>.svg`.  
+See [icons/README.md](icons/README.md) for the full export guide.
+
+### Export all SVGs from Figma
+
+```bash
+FIGMA_TOKEN=<your-personal-access-token> node scripts/export-icons.js
+```
+
+Requires a [Figma personal access token](https://www.figma.com/developers/api#access-tokens).  
+The script reads node IDs from `tokens/iconography.json`, calls the Figma API, downloads the SVGs, and writes all four color-mode variants into the `icons/` tree.
 
 ## Figma Source
 

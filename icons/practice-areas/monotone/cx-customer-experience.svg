@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- CX — Customer Experience (monotone) -->
+  <!-- Primary: #005eb8 | Secondary: rgba(0,94,184,0.3) -->
+  <!-- 48×48 flattened vector — Proto-Lab Design System -->
+
+  <rect x="6" y="10" width="36" height="24" rx="3" fill="#005eb8"/>
+  <rect x="9" y="13" width="30" height="18" rx="1" fill="rgba(0,94,184,0.3)"/>
+  <rect x="20" y="34" width="8" height="4" fill="#005eb8"/>
+  <rect x="16" y="38" width="16" height="2" rx="1" fill="#005eb8"/>
+  <circle cx="24" cy="20" r="3" fill="#005eb8"/>
+  <path d="M18 28c0-3.314 2.686-6 6-6s6 2.686 6 6" fill="#005eb8"/>
+</svg>
