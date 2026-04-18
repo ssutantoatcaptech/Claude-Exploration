@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Rocket Launch (inverse) — General -->
+  <path d="M24 6C24 6 33 12 33 26L24 38L15 26C15 12 24 6 24 6Z" fill="#ffffff"/>
+  <circle cx="24" cy="22" r="4" fill="rgba(255,255,255,0.5)"/>
+  <path d="M15 26L10 34L17 30Z" fill="#ffffff"/>
+  <path d="M33 26L38 34L31 30Z" fill="#ffffff"/>
+  <path d="M20 38C20 38 22 44 24 44C26 44 28 38 28 38" fill="rgba(255,255,255,0.5)"/>
+</svg>

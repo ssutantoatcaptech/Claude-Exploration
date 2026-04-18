@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Belonging (greyscale) — Core Values -->
+  <path d="M24 40C24 40 7 28.5 7 17.5C7 12.806 10.806 9 15.5 9C18.24 9 20.657 10.262 22.25 12.278C22.735 11.61 23.329 11.017 24 10.53C25.592 9.375 27.519 8.75 29.5 9C34.194 9 38 12.806 38 17.5C38 28.5 24 40 24 40Z" fill="#333f48"/>
+  <path d="M17 14c-2.209 0-4 1.791-4 4 0 4 4.5 9 4.5 9" stroke="rgba(51,63,72,0.3)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>

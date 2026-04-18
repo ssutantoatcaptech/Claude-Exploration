@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <!-- Communicator (monotone) — Core Competencies -->
+  <path d="M8 10C8 8.343 9.343 7 11 7h26c1.657 0 3 1.343 3 3v20c0 1.657-1.343 3-3 3H28l-4 5-4-5H11c-1.657 0-3-1.343-3-3V10z" fill="#005eb8"/>
+  <circle cx="18" cy="20" r="2.5" fill="rgba(0,94,184,0.3)"/>
+  <circle cx="24" cy="20" r="2.5" fill="rgba(0,94,184,0.3)"/>
+  <circle cx="30" cy="20" r="2.5" fill="rgba(0,94,184,0.3)"/>
+</svg>
